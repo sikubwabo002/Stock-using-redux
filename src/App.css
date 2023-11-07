@@ -1,0 +1,72 @@
+h1 {
+  color: white;
+  font-family: lexend;
+  background-color: rgb(7, 7, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.body {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 50%;
+  margin: 0px 25%;
+  gap: 30px;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.button-1 {
+  width: 120px;
+  height: 50px;
+  font-family: montserrat;
+  font-weight: bold;
+  background-color: rgb(7, 7, 80);
+  color: white;
+  border: none;
+}
+.button-2 {
+  width: 120px;
+  height: 50px;
+  font-family: montserrat;
+  font-weight: bold;
+
+  color: rgb(7, 7, 80);
+  border: none;
+}
+.button-1:hover {
+  background-color: rgb(55, 55, 110);
+}
+.button-2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.counts {
+  font-family: lexend;
+  color: rgb(7, 7, 80);
+}
+
+@media screen and (max-width: 568px) {
+  h1 {
+    color: white;
+    font-family: lexend;
+    background-color: rgb(7, 7, 80);
+    height: 100px;
+    width: 100%;
+  }
+  .body {
+    background-color: whitesmoke;
+    margin-left: 0px;
+    height: 300px;
+    width: 100%;
+    gap: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
